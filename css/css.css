@@ -1,0 +1,90 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.form-calculadora{
+    width: 350px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    -webkit-box-shadow: 47px 39px 80px -21px rgba(171,171,171,1);
+-moz-box-shadow: 47px 39px 80px -21px rgba(171,171,171,1);
+box-shadow: 47px 39px 80px -21px rgba(171,171,171,1);
+
+}
+
+.fc-titulo{
+    display: block;
+    text-align: center;
+    color: #0F8C8C;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 75px;
+}
+
+.num-1, .num-2{
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    margin-top: 25px;
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+   
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+
+.caja-botones{
+    color: #fff;
+    width: 250px;
+    margin: auto;
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.caja-botones input{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 0;
+    background-color: #012E40;
+    color: #fff;
+    border: 1px ;
+    border-radius: 100%;
+    
+}
+
+.caja-botones input:hover{
+    background-color: #027367;
+}
+.fc-respuesta{
+    background-color: #732D2D;
+
+    display: block;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+
+}
