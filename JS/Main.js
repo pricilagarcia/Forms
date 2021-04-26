@@ -51,4 +51,3 @@ var btn_s = document.getElementById("btn_s")
 btn_s.addEventListener('click', sumar)
 
 //------
-
